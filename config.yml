@@ -82,14 +82,10 @@ google_analytics_id:
 # Profile header
 # -----------------------------------------------------------------------------
 title: "Biografía y Links"
-avatar: "./images/profile2.jpeg"
+avatar: "./images/profile.jpeg"
 name: "Guillermo A. Verini"
 tagline: |
-  Tecnología · Educación · Innovación · Gestión
-
-  Creo conexiones entre tecnología, educación y personas para hacer que las cosas sucedan.
-
-  📍 Las Varillas, Córdoba, Argentina.
+  Tecnología · Educación · Innovación · Gestión ->    Creo conexiones entre tecnología, educación y personas para hacer que las cosas sucedan. ->    📍 Las Varillas, Córdoba, Argentina.
   
 # -----------------------------------------------------------------------------
 # Links
@@ -164,23 +160,15 @@ links:
 
   - link:
       icon: "fa-solid fa-microchip"
-      text: "💻 Tecnología & Ciberseguridad"
+      text: "💻 Tecnología, Ciberseguridad, IA & Educació"
       url: "https://ar.linkedin.com/in/guillermo-alberto-verini-a6716614"
-      alt: "Tecnología, ciberseguridad e informática"
+      alt: "Tecnología, ciberseguridad, informática, Inteligencia artificial y educación"
       title: "Tecnología y Ciberseguridad"
       target: "_blank"
 
   - link:
-      icon: "fa-solid fa-robot"
-      text: "🤖 IA & Educación"
-      url: "https://ar.linkedin.com/in/guillermo-alberto-verini-a6716614"
-      alt: "Inteligencia artificial y educación"
-      title: "IA y Educación"
-      target: "_blank"
-
-  - link:
       icon: "fa-solid fa-store"
-      text: "🐸 Tecnología & Froggy"
+      text: "🐸 Venta de equipos en Froggy"
       url: "https://froggyweb.com.ar/"
       alt: "Froggy Informática Avanzada"
       title: "Froggy Informática Avanzada"
@@ -222,9 +210,16 @@ socials:
 
   - social:
       icon: "fa-solid fa-envelope"
-      url: "mailto:guilleverini@gmail.com"
-      title: "Email — Guillermo Verini"
-      alt: "Email de Guillermo Verini"
+      url: "mailto:guillermo.verini@gmail.com"
+      title: "Perosnal Guillermo Verini"
+      alt: "Perosnal Guillermo Verini"
+      target: "_blank"
+      
+  - social:
+      icon: "fa-solid fa-envelope"
+      url: "mailto:guillermoverini.sedelv@upc.edu.ar"
+      title: "Academica UPC Guillermo Verini"
+      alt: "Academica UPC Guillermo Verini"
       target: "_blank"
 
 # -----------------------------------------------------------------------------
