@@ -84,17 +84,12 @@ google_analytics_id:
 title: "Biografía y Links"
 avatar: "./images/profile.jpeg"
 name: "Guillermo A. Verini"
-#tagline: >-
-#   Tecnología · Educación · Innovación · Gestión
-#   
-#   Creo conexiones entre tecnología, educación y personas para hacer que las cosas sucedan.
-#
-#   📍 Las Varillas, Córdoba, Argentina
-
-tagline: |-
-   Tecnología · Educación · Innovación · Gestión
+tagline: >-
+  Tecnología · Educación · Innovación · Gestión    
+tagline: >-
    Creo conexiones entre tecnología, educación y personas para hacer que las cosas sucedan.
-   📍 Las Varillas, Córdoba, Argentina
+tagline: >-
+  📍 Las Varillas, Córdoba, Argentina
 # -----------------------------------------------------------------------------
 # Links
 #   icon  — Font Awesome class (https://fontawesome.com/search?o=r&m=free)
