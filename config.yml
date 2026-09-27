@@ -82,15 +82,15 @@ google_analytics_id:
 # Profile header
 # -----------------------------------------------------------------------------
 title: "Biografía y Links"
-avatar: "./images/profile.jpeg"
+avatar: "./images/profile2.jpeg"
 name: "Guillermo A. Verini"
-
-  tagline: |
+tagline: |
   Tecnología · Educación · Innovación · Gestión
-  |
+
   Creo conexiones entre tecnología, educación y personas para hacer que las cosas sucedan.
-  |
+
   📍 Las Varillas, Córdoba, Argentina.
+  
 # -----------------------------------------------------------------------------
 # Links
 #   icon  — Font Awesome class (https://fontawesome.com/search?o=r&m=free)
