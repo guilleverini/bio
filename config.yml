@@ -84,11 +84,10 @@ google_analytics_id:
 title: "Biografía y Links"
 avatar: "./images/profile.jpeg"
 name: "Guillermo A. Verini"
-tagline: >-
-  Tecnología · Educación · Innovación · Gestión    
-tagline: >-
-   Creo conexiones entre tecnología, educación y personas para hacer que las cosas sucedan.
-tagline: >-
+tagline: |-
+  Tecnología · Educación · Innovación · Gestión
+  Director Académico · Docente · Emprendedor tecnológico
+  Creo conexiones entre tecnología, educación y personas para hacer que las cosas sucedan.
   📍 Las Varillas, Córdoba, Argentina
 # -----------------------------------------------------------------------------
 # Links
@@ -99,117 +98,138 @@ tagline: >-
 #   alt   — accessibility text
 #   target — `_blank` (new tab) or `_self`
 # -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+# Links principales
+# -----------------------------------------------------------------------------
 links:
+
+  # WhatsApp
   - link:
-      icon: "fa-solid fa-rss"
+      icon: "fa-brands fa-whatsapp"
       text: "💬 Contactarme por WhatsApp"
-      url: "https://wa.me/5493533431132?text=Hola%2C%20vengo%20de%20froggyweb.com.ar%20me%20ayudas?.%20Soy..."
+      url: "https://wa.me/5493533431132?text=Hola%20Guillermo%2C%20llegué%20desde%20tu%20tarjeta%20digital."
       alt: "Contactarme por WhatsApp"
       title: "Contactarme por WhatsApp"
       target: "_blank"
 
-  # → uses GithubRepoStarsCountPlugin
+  # LinkedIn
   - link:
-      icon: "fa-brands fa-swift"
-      text: "ZMarkupParser <span class='link-button-text'>({{vars.GithubRepoStarsCountPlugin['ZhgChgLi/ZMarkupParser']}} Stars)</span>"
-      url: "https://github.com/ZhgChgLi/ZMarkupParser"
-      alt: "ZMarkupParser is a pure-Swift library that helps you to convert HTML strings to NSAttributedString with customized style and tags."
-      title: "ZMarkupParser is a pure-Swift library that helps you to convert HTML strings to NSAttributedString with customized style and tags."
-      target: "_blank"
-  - link:
-      icon: "fa-brands fa-app-store-ios"
-      text: "ZReviewTender <span class='link-button-text'>({{vars.GithubRepoStarsCountPlugin['ZhgChgLi/ZReviewTender']}} Stars)</span>"
-      url: "https://github.com/ZhgChgLi/ZReviewTender"
-      alt: "ZReviewTender is a tool for fetching app reviews from the App Store and Google Play Console and integrating them into your workflow."
-      title: "ZReviewTender is a tool for fetching app reviews from the App Store and Google Play Console and integrating them into your workflow."
-      target: "_blank"
-  - link:
-      icon: "fa-brands fa-markdown"
-      text: "ZMediumToMarkdown <span class='link-button-text'>({{vars.GithubRepoStarsCountPlugin['ZhgChgLi/ZMediumToMarkdown']}} Stars)</span>"
-      url: "https://github.com/ZhgChgLi/ZMediumToMarkdown"
-      alt: "ZMediumToMarkdown is a powerful tool that allows you to effortlessly download and convert your Medium posts to Markdown format."
-      title: "ZMediumToMarkdown is a powerful tool that allows you to effortlessly download and convert your Medium posts to Markdown format."
+      icon: "fa-brands fa-linkedin"
+      text: "💼 Mi perfil profesional"
+      url: "https://ar.linkedin.com/in/guillermo-alberto-verini-a6716614"
+      alt: "Perfil profesional de Guillermo Alberto Verini en LinkedIn"
+      title: "Mi perfil profesional en LinkedIn"
       target: "_blank"
 
-  # → uses GithubRepoStarsCountPlugin + GithubLastCommitPlugin
+  # Universidad Provincial de Córdoba
   - link:
-      icon: "fa-brands fa-github"
-      text: "linkyee <span class='link-button-text'>({{vars.GithubRepoStarsCountPlugin['ZhgChgLi/linkyee']}} ⭐ · last update {{ vars.GithubLastCommitPlugin['ZhgChgLi/linkyee'].date }})</span>"
-      url: "https://github.com/ZhgChgLi/linkyee"
-      alt: "linkyee is a fully customized, open-source LinkTree alternative deployed directly on GitHub Pages."
-      title: "linkyee is a fully customized, open-source LinkTree alternative deployed directly on GitHub Pages."
+      icon: "fa-solid fa-building-columns"
+      text: "🎓 Universidad Provincial de Córdoba"
+      url: "https://www.upc.edu.ar/sede-las-varillas/autoridades/"
+      alt: "Universidad Provincial de Córdoba — Sede Regional Las Varillas"
+      title: "Universidad Provincial de Córdoba — Sede Regional Las Varillas"
       target: "_blank"
 
-  # → uses RSSFeedPlugin (latest blog post). `latest: true` opts into the
-  #   theme's "LATEST" badge styling.
+  # Froggy
   - link:
-      icon: "fa-solid fa-newspaper"
-      text: "{{ vars.RSSFeedPlugin['https://en.zhgchg.li/feed.xml'][0].title }}"
-      url: "{{ vars.RSSFeedPlugin['https://en.zhgchg.li/feed.xml'][0].url }}"
-      alt: "Latest blog post by ZhgChgLi"
-      title: "Latest blog post"
+      icon: "fa-solid fa-laptop"
+      text: "🐸 Froggy Informática Avanzada"
+      url: "https://froggyweb.com.ar/"
+      alt: "Froggy Informática Avanzada"
+      title: "Froggy Informática Avanzada"
       target: "_blank"
-      latest: true
 
-  # → uses YouTubeChannelLatestVideoPlugin
+  # CV / perfil profesional
   - link:
-      icon: "fa-brands fa-youtube"
-      text: "{{ vars.YouTubeChannelLatestVideoPlugin['@zhgchgli'].title }}"
-      url: "{{ vars.YouTubeChannelLatestVideoPlugin['@zhgchgli'].url }}"
-      alt: "Latest YouTube video"
-      title: "Latest YouTube video"
+      icon: "fa-solid fa-address-card"
+      text: "📄 Mi CV y trayectoria"
+      url: "https://ar.linkedin.com/in/guillermo-alberto-verini-a6716614"
+      alt: "Trayectoria profesional de Guillermo Verini"
+      title: "Mi CV y trayectoria profesional"
       target: "_blank"
-      latest: true
+
+  # ----------------------------------------------------------------------------
+  # MIS UNIVERSOS
+  # ----------------------------------------------------------------------------
+
+  - link:
+      icon: "fa-solid fa-graduation-cap"
+      text: "🎓 Universidad & Gestión Académica"
+      url: "https://www.upc.edu.ar/sede-las-varillas/autoridades/"
+      alt: "Actividad de Guillermo Verini en la Universidad Provincial de Córdoba"
+      title: "Universidad y Gestión Académica"
+      target: "_blank"
+
+  - link:
+      icon: "fa-solid fa-microchip"
+      text: "💻 Tecnología & Ciberseguridad"
+      url: "https://ar.linkedin.com/in/guillermo-alberto-verini-a6716614"
+      alt: "Tecnología, ciberseguridad e informática"
+      title: "Tecnología y Ciberseguridad"
+      target: "_blank"
+
+  - link:
+      icon: "fa-solid fa-robot"
+      text: "🤖 IA & Educación"
+      url: "https://ar.linkedin.com/in/guillermo-alberto-verini-a6716614"
+      alt: "Inteligencia artificial y educación"
+      title: "IA y Educación"
+      target: "_blank"
+
+  - link:
+      icon: "fa-solid fa-store"
+      text: "🐸 Tecnología & Froggy"
+      url: "https://froggyweb.com.ar/"
+      alt: "Froggy Informática Avanzada"
+      title: "Froggy Informática Avanzada"
+      target: "_blank"
+
+  - link:
+      icon: "fa-solid fa-microphone"
+      text: "🎤 Conferencias & Proyectos"
+      url: "https://ar.linkedin.com/in/guillermo-alberto-verini-a6716614"
+      alt: "Conferencias y proyectos de Guillermo Verini"
+      title: "Conferencias y proyectos"
+      target: "_blank"
 
 # -----------------------------------------------------------------------------
-# Social media buttons
+# Redes sociales
 # -----------------------------------------------------------------------------
 socials:
-  - social:
-      icon: "fa-brands fa-medium"
-      url: "https://blog.zhgchg.li"
-      title: "ZhgChgLi's Medium"
-      alt: "ZhgChgLi's Medium"
-      target: "_blank"
-  - social:
-      icon: "fa-brands fa-github"
-      url: "https://github.com/ZhgChgLi"
-      title: "ZhgChgLi's GitHub"
-      alt: "ZhgChgLi's GitHub"
-      target: "_blank"
-  - social:
-      icon: "fa-brands fa-twitter"
-      url: "https://twitter.com/zhgchgli"
-      title: "ZhgChgLi's Twitter"
-      alt: "ZhgChgLi's Twitter"
-      target: "_blank"
+
   - social:
       icon: "fa-brands fa-linkedin"
-      url: "https://www.linkedin.com/in/zhgchgli/"
-      title: "ZhgChgLi's LinkedIn"
-      alt: "ZhgChgLi's LinkedIn"
+      url: "https://ar.linkedin.com/in/guillermo-alberto-verini-a6716614"
+      title: "LinkedIn — Guillermo Verini"
+      alt: "LinkedIn de Guillermo Verini"
       target: "_blank"
+
   - social:
       icon: "fa-brands fa-instagram"
-      url: "https://www.instagram.com/zhgchgli/"
-      title: "Instagram"
-      alt: "ZhgChgLi's Instagram"
+      url: "https://www.instagram.com/guillermo.verini/"
+      title: "Instagram — Guillermo Verini"
+      alt: "Instagram de Guillermo Verini"
       target: "_blank"
+
+  - social:
+      icon: "fa-brands fa-instagram"
+      url: "https://www.instagram.com/froggyweb.com.ar/"
+      title: "Instagram — Froggy Informática Avanzada"
+      alt: "Instagram de Froggy Informática Avanzada"
+      target: "_blank"
+
   - social:
       icon: "fa-solid fa-envelope"
-      url: "mailto:zhgchgli@gmail.com"
-      title: "Email: zhgchgli@gmail.com"
-      alt: "zhgchgli@gmail.com"
+      url: "mailto:guilleverini@gmail.com"
+      title: "Email — Guillermo Verini"
+      alt: "Email de Guillermo Verini"
       target: "_blank"
 
 # -----------------------------------------------------------------------------
-# Footer (uses CountdownPlugin)
+# Footer
 # -----------------------------------------------------------------------------
 footer: >
-    Hi there! Follow me on Medium or GitHub, or stay connected on Instagram or LinkedIn.
-    <br>linkyee has been live for {{ vars.CountdownPlugin.linkyee_release.days }} days. 🎉
-
-# Footer copyright message
-# Linkyee is a 100% free, open-source project—feel free to modify the copyright message as you like. :)
-copyright: >
+  Tecnología · Educación · Innovación · Gestión
+  <br>
+  Hacer que las cosas sucedan.copyright: >
   © {{ year }} <a href="https://link.zhgchg.li" target="_blank">ZhgChgLi</a>. Powered by <a href="https://github.com/ZhgChgLi/linkyee" target="_blank">linkyee</a>
